@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: '74665f9a-10e9-4396-8cfc-4d906942a29a'
   imageRepository: 'yurasorokatestdeployment'
   containerRegistry: 'azurelearningacrdeployment.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
+  dockerfilePath: '$(Build.SourcesDirectory)/WebApplication1/Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
